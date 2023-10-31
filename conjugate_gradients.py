@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from warnings import warn
-#from sklearn.datasets import make_spd_matrix
+from sklearn.datasets import make_spd_matrix
 
 def LinearCG(AA, bb, xxZero, tol):
     xx = xxZero
